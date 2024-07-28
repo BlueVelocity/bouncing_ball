@@ -1,0 +1,27 @@
+html {
+  width: 100vw;
+  height: 100vh;
+  background-color: grey;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+  resize: both;
+  overflow: hidden;
+  width: 80%;
+  height: 80%;
+  outline: black solid 1px;
+}
+
+#circle {
+  position: absolute;
+}
